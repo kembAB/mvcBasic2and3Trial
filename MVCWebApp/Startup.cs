@@ -71,7 +71,7 @@ namespace MVCWebApp
                 //GuessingGame test  route :/GuessingGame/Index
                 endpoints.MapControllerRoute(
                     name: "GuessingGame",
-                    pattern: "GuessingGame",
+                    pattern: "GuessingGame/EnteredNum:maxlength(101)",
                     defaults: new { controller = "GuessingGame", action = "Index" });
                 //Person route
                 endpoints.MapControllerRoute(

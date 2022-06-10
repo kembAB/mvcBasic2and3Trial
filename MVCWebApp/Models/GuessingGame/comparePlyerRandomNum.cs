@@ -28,9 +28,9 @@ namespace MVCWebApp.Models.GuessingGame
             public static string Compare(int playerGuess, int randomNumber)
             {
                 if (playerGuess > randomNumber)
-                    return "Tip:Your Guess is greater than the random Number: go lower";
+                    return "Tip:Your Guess"+playerGuess+" is greater than the random Number: go lower";
                 else
-                    return "Tip:Your Guess is less than the random Number: go higher";
+                    return "Tip:Your Guess"+ playerGuess + " is less than the random Number: go higher";
             }
         
 

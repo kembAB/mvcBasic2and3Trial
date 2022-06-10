@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MVCWebApp.Models
 {
-
+   
     public class GuessingProperties
     {
         public int difference { get; set; }
